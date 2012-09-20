@@ -14,7 +14,7 @@ except ImportError:
     from setuptools import setup, find_packages
 
 setup(
-    name='densitypi',
+    name='pushersd',
     description='Server Density over Pusher',
     version=__version__,
     author='Chris Hannam',
