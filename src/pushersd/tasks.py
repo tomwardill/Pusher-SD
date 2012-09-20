@@ -1,6 +1,6 @@
 from datetime import timedelta
 import celeryconfig
-from celery.task import task
+from celery import task
 
 import pusher
 from serverdensity.api import SDApi, SDServiceError
